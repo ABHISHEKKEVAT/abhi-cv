@@ -1,0 +1,115 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: #e6e6e6;
+}
+
+/* HEADER */
+.three-column-header {
+  background: #111;
+  color: #e6e6e6;
+  padding: 25px 20px;                 /* reduced from 40px */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #1f1f1f;
+}
+
+.header-left {
+  text-align: left;
+}
+
+.header-center {
+  text-align: center;
+}
+
+.header-right {
+  text-align: right;
+  font-size: 14px;                    /* smaller text */
+  line-height: 1.4;
+}
+
+.header-right a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+.profile-photo {
+  width: 130px;                       /* smaller photo */
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4da3ff;
+}
+
+/* TWO-COLUMN SECTIONS */
+.two-column-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;                          /* reduced from 40px */
+  max-width: 900px;                   /* narrower page */
+  margin: 20px auto;                  /* reduced spacing */
+  padding: 1px;
+}
+
+.left-box, .right-box {
+  background: #1a1a1a;
+  padding: 10px;                      /* reduced from 25px */
+  border-radius: 4px;
+  border: 1px solid #2a2a2a;
+}
+
+.left-box h2, .right-box h2 {
+  border-left: 4px solid #4da3ff;
+  padding-left: 8px;
+  margin-bottom: 12px;                /* reduced */
+  font-size: 20px;                    /* smaller */
+  color: #4da3ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #222;
+  padding: 10px;                      /* reduced */
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+/* CARDS */
+.card {
+  background: #222;
+  padding: 12px;                      /* reduced */
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+.card h3 {
+  color: #4da3ff;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;                      /* reduced */
+  background: #111;
+  color: #e6e6e6;
+  border-top: 2px solid #1f1f1f;
+  font-size: 14px;
+}
